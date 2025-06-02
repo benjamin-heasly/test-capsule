@@ -1,5 +1,6 @@
 import os
-import logging
 
 message = os.environ["MESSAGE"]
-logging.info(message)
+
+print("My message is:")
+print(message)
