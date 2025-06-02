@@ -6,5 +6,5 @@ print("My message is:")
 print(message)
 
 output_file = "/data/hello.txt"
-with open(output_file, 'r') as f:
+with open(output_file, 'w') as f:
     f.write(message)
